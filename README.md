@@ -1,1 +1,1 @@
-# geowest-config-repo
+# geowest-config-server
