@@ -3,7 +3,7 @@ server:
 
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5432/vehicle
+    url: jdbc:postgresql://localhost:5432/vehicledb
     username: admin 
     password: admin
   
