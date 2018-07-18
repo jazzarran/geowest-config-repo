@@ -1,1 +1,0 @@
-# geowest-config-server
