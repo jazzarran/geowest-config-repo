@@ -1,18 +1,31 @@
 server:
   port: 8020
+  servlet:
+    context-path: /vision-service
 
 spring:
   datasource:
-    url: jdbc:postgresql://visiondb:5432/visiondb
-    username: admin 
+    url: jdbc:mysql://visiondb:3306/visiondb?useSSL=false
+    username: admin
     password: admin
-  
+
   jpa:
-    properties: 
+    hibernate:
+      ddl-auto: update
+    properties:
       hibernate:
         temp:
           use_jdbc_metadata_defaults: false
-    database-platform: org.hibernate.dialect.PostgreSQL9Dialect
-    
+    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+
+  thymeleaf:
+    cache: false
+
 flyway:
   locations: db/migration
+
+aws:
+  s3:
+    accessId: FIXME
+    secretKey: FIXME
+    bucketName: FIXME
