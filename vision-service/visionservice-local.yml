@@ -1,0 +1,18 @@
+server:
+  port: 8020
+
+spring:
+  datasource:
+    url: jdbc:postgresql://visiondb:5432/visiondb
+    username: admin 
+    password: admin
+  
+  jpa:
+    properties: 
+      hibernate:
+        temp:
+          use_jdbc_metadata_defaults: false
+    database-platform: org.hibernate.dialect.PostgreSQL9Dialect
+    
+flyway:
+  locations: db/migration
