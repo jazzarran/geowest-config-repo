@@ -3,7 +3,7 @@ server:
 
 spring:
   datasource:
-    url: jdbc:postgresql://organizationdb:543222/organizationdb
+    url: jdbc:postgresql://organizationdb:5432/organizationdb
     username: admin 
     password: admin
   
