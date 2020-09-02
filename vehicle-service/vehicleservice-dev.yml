@@ -5,8 +5,8 @@ server:
 spring:
   datasource:
     url: jdbc:postgresql://vehicledbserver:5433/vehicledb
-    username: admin 
-    password: admin
+    username: orgadmin 
+    password: orgadmin
   
   jpa:
     properties: 
