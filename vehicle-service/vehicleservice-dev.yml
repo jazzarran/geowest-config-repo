@@ -4,7 +4,7 @@ server:
 
 spring:
   datasource:
-    url: jdbc:postgresql://vehicledbserver:5433/vehicledb
+    url: jdbc:postgresql://vehicle-db-server.ccfeqz6ovj7f.us-east-2.rds.amazonaws.com:5433/vehicledb
     username: orgadmin 
     password: orgadmin
   
