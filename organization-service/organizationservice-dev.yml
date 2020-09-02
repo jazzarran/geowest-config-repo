@@ -4,9 +4,9 @@ server:
 
 spring:
   datasource:
-    url: jdbc:postgresql://organizationdbserver:5432/organizationdb
-    username: admin 
-    password: admin
+    url: jdbc:postgresql://organizationdb.ccfeqz6ovj7f.us-east-2.rds.amazonaws.com:5432/organizationdb
+    username: orgadmin 
+    password: orgadmin
   
   jpa:
     properties: 
