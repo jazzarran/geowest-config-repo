@@ -4,7 +4,7 @@ server:
 
 spring:
   datasource:
-    url: jdbc:postgresql://{insert_aws_endpoint_url}:5432/organizationdb
+    url: jdbc:postgresql://organization-db-server.ccfeqz6ovj7f.us-east-2.rds.amazonaws.com:5432/organizationdb
     username: orgadmin 
     password: orgadmin
   
