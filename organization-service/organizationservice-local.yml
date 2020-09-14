@@ -13,6 +13,16 @@ spring:
         temp:
           use_jdbc_metadata_defaults: false
     database-platform: org.hibernate.dialect.PostgreSQL9Dialect
-    
+
+keycloak:
+    realm:
+    auth-server-url: http://localhost:8080/auth
+    ssl-required: external
+    use-resource-role-mappings: true
+    bearer-only: true
+    resource: geowest-fleet-application
+    credentials:
+        secret: 75ae0d8f-116b-4a73-b8d7-e5a8591a8746
+        
 flyway:
   locations: db/migration
