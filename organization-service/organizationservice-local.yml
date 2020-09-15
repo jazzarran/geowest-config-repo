@@ -23,6 +23,10 @@ keycloak:
     resource: geowest-fleet-application
     credentials:
         secret: 75ae0d8f-116b-4a73-b8d7-e5a8591a8746
-        
+
+logging:
+  level:
+    org.keycloak: DEBUG
+
 flyway:
   locations: db/migration
