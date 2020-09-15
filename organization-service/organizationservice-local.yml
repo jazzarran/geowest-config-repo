@@ -16,7 +16,7 @@ spring:
 
 keycloak:
     realm: geowest-realm
-    auth-server-url: http://keycloakserver:8080/auth
+    auth-server-url: http://keycloak.geowest.authserver.com:8080/auth
     ssl-required: external
     use-resource-role-mappings: true
     bearer-only: true
